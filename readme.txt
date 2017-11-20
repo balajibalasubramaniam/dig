@@ -1,5 +1,5 @@
 
-The zip file contains a virtual machine with Ubuntu 14.04 LTS operating system. It comes pre-installed with SAGE, Z3, KLEE, Java, JPF and Junit. Most importantly, it includes DIG or SymInfer - a state of the art tool for generating numerical invariants using symbolic states extracted from a symbolic execution tool (please visit https://bitbucket.org/nguyenthanhvuh/symtraces/wiki/Home to know more). To use the virtual machine, first download and unzip the file "Ubuntu 14 DIG". After unzipping, please open the configuration file "Ubuntu 14 DIG.vmx" using either "VMware Workstation Player" (available for free for personal use) or "VMware Workstation" (license required). VMware workstation player allows you to run virtual machine for free. Please visit the following link to download the player: https://my.vmware.com/en/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/12_0.
+The folder Ubuntu 14 DIG contains a virtual machine with Ubuntu 14.04 LTS operating system. It comes pre-installed with SAGE, Z3, KLEE, Java, JPF and Junit. Most importantly, it includes DIG or SymInfer - a state of the art tool for generating numerical invariants using symbolic states extracted from a symbolic execution tool (please visit https://bitbucket.org/nguyenthanhvuh/symtraces/wiki/Home to know more). To use the virtual machine, first clone/ download the folder "Ubuntu 14 DIG". After that, please open the configuration file "Ubuntu 14 DIG.vmx" using either "VMware Workstation Player" (available for free for personal use) or "VMware Workstation" (license required). VMware workstation player allows you to run virtual machine for free. Please visit the following link to download the player: https://my.vmware.com/en/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/12_0.
 
 Virtual machine password as well as the root password is "s".
 
@@ -21,3 +21,9 @@ balaij@ubuntu:~/Documents/symtraces$ sage -python -O dig.py programs/nla/cohendi
 For java programs:
 balaij@ubuntu:~/Documents/symtraces$ sage -python -O dig.py programs/nla/CohenDiv.java 
 
+Please find the sample output in the screenshot.PNG file
+
+Author:
+Balaji Balasubramaniam
+
+Please send email to balajithevoyager.bb@gmail.com
